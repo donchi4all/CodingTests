@@ -23,15 +23,15 @@ class Result {
 
     public static int minimizeBias(List<Integer> ratings) {
     // Write your code here
-    int sum = 0;
-    int len = ratings.size();
+    int sumOfInt = 0;
+    int lengthOfArray = ratings.size();
     Collections.sort(ratings);
     
-    for(int i = 0; i<len-1; i +=2){
+    for(int i = 0; i<lengthOfArray-1; i +=2){
         int difference = ratings.get(i+1)-ratings.get(i);
-        sum+=difference;
+        sumOfInt+=difference;
     }
-    return sum;
+    return sumOfInt;
     }
 
 }
