@@ -14,13 +14,6 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'minimizeBias' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts INTEGER_ARRAY ratings as parameter.
-     */
-
     public static int minimizeBias(List<Integer> ratings) {
     // Write your code here
     int sumOfInt = 0;
